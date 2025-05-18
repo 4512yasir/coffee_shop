@@ -1,6 +1,7 @@
 class Coffee:
-    def __init__(self,name):
+    def __init__(self,name,price):
         self.__name = name
+        self.price = price
         self.orders = []
 
     @property
